@@ -1,1 +1,91 @@
-A webpage for a steper exercise
+<html>
+  <head>
+    <style>
+      h1 {
+        text-align: center;
+        color: blueviolet;
+      }
+
+      h2 {
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid blueviolet;
+        padding: 15px;
+      }
+
+      img {
+        border-radius: 10px;
+        width: 100%;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      button {
+        width: 100%;
+        background: blueviolet;
+        color: white;
+        border: none;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 30px;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+        margin: 20px 0;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🕺 STEPPER DANCE
+    </h1>
+    <h2>
+      Discipline
+    </h2>
+    <img
+      src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAerobics&psig=AOvVaw0XbpD668TSBwL2uL-i6XF6&ust=1686671693647000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPDym-uLvv8CFQAAAAAdAAAAABAF"
+      alt=""
+    />
+    <p>
+      A “stepper,” also known as a stair climber or stair stepper, 
+      is an exercise machine that replicates the motion of walking 
+      up stairs. Steppers come in various types ranging from step 
+      mills that resemble a small staircase to stair climbers that 
+      feature pedals with foot straps.
+      <br />
+      <br />
+      <a href="https://staminaproducts.com/learn/steppers/#:~:text=A%20%E2%80%9Cstepper%2C%E2%80%9D%20also%20known,feature%20pedals%20with%20foot%20straps.>
+        Learn more on staminaproducts
+      </a>
+    </p>
+    <button>
+      Go to a Yoga class
+    </button>
+    <footer>
+      Coded by 👩‍💻
+      <a href="https://www.linkedin.com/in/nonhle-msomi-b40000bb/">
+        Nonhle Msomi
+      </a>
+    </footer>
+
+    <script>
+      function subscribe() {
+        let name = prompt("What is your name?");
+        prompt("What is your email address?");
+
+        alert(
+          `Thanks, ${name}! We'll be in touch! Meanwhile, don't forget to breathe 🧘‍♀️`
+        );
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>
